@@ -1,0 +1,16 @@
+{
+  "id": "aec6ecde-199f-4e51-9b34-b450f1dec3ac",
+  "name": "good",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "всё отлично Как у тебя",
+      "synonyms": [
+        "всё отлично Как у тебя",
+        "ты как"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}
