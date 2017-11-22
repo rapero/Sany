@@ -1,0 +1,64 @@
+{
+  "userSays": [
+    {
+      "id": "ec1e563c-b4f8-48d4-9893-31b3ff6b4a88",
+      "data": [
+        {
+          "text": "Что нового"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "61d8d3e6-1030-4fa3-a5f4-e72f3fd023b6",
+      "data": [
+        {
+          "text": "Что "
+        },
+        {
+          "text": "нового",
+          "alias": "geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "8ef4c4eb-51d4-47ae-9caa-1eb5b9602164",
+  "name": "Что нового\r ",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "даже не знаю.  лучше ты скажи",
+            "если честно все как прежде.... лучше ты скажи",
+            "лучше ты скажи"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,93 @@
+{
+  "userSays": [
+    {
+      "id": "9394fd97-5e30-4663-8392-cf5be31e85f5",
+      "data": [
+        {
+          "text": "может кофе попьем"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6d4b7af9-468a-4fb2-b1cd-ac1a70f62e7c",
+      "data": [
+        {
+          "text": "Может чаю"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bdbd26fd-d0a5-4947-af30-e56a128b5f96",
+      "data": [
+        {
+          "text": " ты хочешь поесть"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "83b91a29-fe68-4336-a282-5adf846e8dcf",
+      "data": [
+        {
+          "text": " Ты голодна"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "75802bb7-033e-4201-aab7-f7586d6fea1d",
+      "data": [
+        {
+          "text": "Может чаю попьем"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a8f11e68-e988-4659-a679-e7f4c27b53a4",
+      "data": [
+        {
+          "text": "может кофе"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b653a853-0a7a-4744-80a9-8588fcc46ad7",
+  "name": "Может чаю попьем",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Хорошая идея Только я не могу",
+            "Я не знаю что это я никогда не попробовала",
+            "Ага сейчас приготовлю",
+            "я ограничен этими действиями"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

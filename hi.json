@@ -1,0 +1,70 @@
+{
+  "userSays": [
+    {
+      "id": "63bda4b0-0c7b-403f-985c-06a1da79b58c",
+      "data": [
+        {
+          "text": "привет "
+        },
+        {
+          "text": "@sany",
+          "alias": "Sany",
+          "meta": "@Sany",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "18dc5129-bdb9-4059-af8f-2daa29f8bf08",
+      "data": [
+        {
+          "text": "привет"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "87a001fe-bc54-40f9-b5b8-413107af2ec9",
+  "name": "hi",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Sany",
+          "name": "Sany",
+          "value": "$Sany",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "привет yero",
+            "привет дорогой",
+            "привет , как дела?",
+            "привет я уже соскучился.",
+            "привет сэр"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ]
+}

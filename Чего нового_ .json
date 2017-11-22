@@ -1,0 +1,50 @@
+{
+  "userSays": [
+    {
+      "id": "d115b166-8de7-4c5f-9193-14a5af360467",
+      "data": [
+        {
+          "text": "ничего особенного"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "74e07838-dcb9-4fbe-8501-952a72e630a0",
+      "data": [
+        {
+          "text": "ничего нового"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "22cec570-3dc6-40b5-a52c-692308677794",
+  "name": "Чего нового\r ",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "а жаль.",
+            "жаль. может расскажешь анекдот"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

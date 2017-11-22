@@ -1,0 +1,63 @@
+{
+  "userSays": [
+    {
+      "id": "8ddd3c59-4db0-46f3-b283-0b53ec5191a8",
+      "data": [
+        {
+          "text": "всё отлично Как у тебя"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "be9acd8e-1fee-428f-a5f1-6442fb3153c0",
+      "data": [
+        {
+          "text": "ты как"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "61da91b6-4782-4485-8e4c-6fc98b9db5d1",
+      "data": [
+        {
+          "text": "как дела?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "38cc4a1a-32c7-4858-8b1a-3fd9abbb118c",
+  "name": "kak dela",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "да так все нормально.",
+            "все  OK... как твои?",
+            "просто класс.",
+            "лучше я помолчу ?",
+            "может хватит?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

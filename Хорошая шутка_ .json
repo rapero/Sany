@@ -1,0 +1,37 @@
+{
+  "userSays": [
+    {
+      "id": "58bc41e8-6520-4b1e-8d22-2d0d14840b61",
+      "data": [
+        {
+          "text": "Хорошая шутка"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "984fcfe0-5fd7-4659-8433-0bb858af18b4",
+  "name": "Хорошая шутка\r ",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Да уж обхохочешься"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,51 @@
+{
+  "userSays": [
+    {
+      "id": "2054bae9-79aa-45cc-9380-52f68afa31ff",
+      "data": [
+        {
+          "text": "ты здесь?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f8d1d290-af2d-4ca7-aa8e-d278c8ea2a92",
+      "data": [
+        {
+          "text": "Ты меня слышишь"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "330889b4-3eb1-425b-85b3-b00f6efb4f62",
+  "name": "ты здесь?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "а как же",
+            "хватит прикалываться.",
+            "заткнись а"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

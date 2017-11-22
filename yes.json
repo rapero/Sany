@@ -1,0 +1,61 @@
+{
+  "userSays": [
+    {
+      "id": "1f798c34-d58e-44bb-a053-5f987c86294c",
+      "data": [
+        {
+          "text": "да очень"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6c497c82-d4e6-4daa-b4fc-1f01b8afa117",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4ff78e26-9c9d-40ca-bf78-a94ccb6b1b10",
+      "data": [
+        {
+          "text": "да"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "35d205c6-b803-4234-a90d-1093d8f3c5fd",
+  "name": "yes",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "так сделай что нибудь",
+            "я бы помог,,, но я не могу",
+            "извини ничем не могу помочь"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

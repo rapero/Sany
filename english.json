@@ -1,0 +1,72 @@
+{
+  "userSays": [
+    {
+      "id": "517a4756-cd49-42ad-ba2b-ffc8b0641cad",
+      "data": [
+        {
+          "text": "hey baby"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0386c9ae-902c-47fa-9275-4e46185526b0",
+      "data": [
+        {
+          "text": "hey"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1fe34e75-b0c6-445a-a1cc-c4d5168c8870",
+      "data": [
+        {
+          "text": "hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c94868c1-87b5-4d9c-bc23-fcfa6beeb7c3",
+      "data": [
+        {
+          "text": "hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "87a993ce-c9da-4fd9-a77b-9efe03736ce2",
+  "name": "english",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "может по русски?",
+            "я не понимаю ?",
+            "ну давай по русски?",
+            "это не смешно ."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

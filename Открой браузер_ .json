@@ -1,0 +1,38 @@
+{
+  "userSays": [
+    {
+      "id": "2d643d0a-1dde-43fe-a313-14e0b562f95b",
+      "data": [
+        {
+          "text": "Открой браузер"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d6d4a572-be54-4505-ba79-2b6e1007a702",
+  "name": "Открой браузер\r ",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "\u003cgooglechrome\u003e",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "минутку"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

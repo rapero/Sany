@@ -1,0 +1,37 @@
+{
+  "userSays": [
+    {
+      "id": "9df6156f-6e87-4867-b80a-25a48fb0090d",
+      "data": [
+        {
+          "text": "давай"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c26c65fc-f691-4a79-8601-0aef3dc0d0e2",
+  "name": "давай\r ",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "ты в этом уверен?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

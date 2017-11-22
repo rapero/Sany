@@ -1,0 +1,61 @@
+{
+  "userSays": [
+    {
+      "id": "86319313-9a95-4616-8ade-7703f9e69fb4",
+      "data": [
+        {
+          "text": "как тебя зовут"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "48623c0e-75fe-4379-93a7-6b17b2ea2e22",
+      "data": [
+        {
+          "text": "расскажи о себе"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0ebb4ac2-129c-4402-8cdd-ba3941566c37",
+      "data": [
+        {
+          "text": "ты кто"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9f27534a-c461-465f-8c51-1eaba5aeacf4",
+  "name": "как тебя зовут",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "ну.... меня зовут Санни и я не наркоманка. был создан тобою ради кайфа. ну как?",
+            "как будто ты не знаешь",
+            "может хватит"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

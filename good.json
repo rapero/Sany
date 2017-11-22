@@ -1,0 +1,61 @@
+{
+  "userSays": [
+    {
+      "id": "24ef8d21-79ee-4002-b39f-66fc6f946b03",
+      "data": [
+        {
+          "text": "неплохо"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5de571b2-d5f5-4659-ba04-d8aaa34b30c6",
+      "data": [
+        {
+          "text": "класс"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c1d1031d-dfe4-466a-aa80-f96a79794855",
+      "data": [
+        {
+          "text": "класно"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a8017c08-9005-409f-ba4e-0ba18bc3688d",
+  "name": "good",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "как прошел день ?",
+            "а ты не голоден?",
+            "что нового?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

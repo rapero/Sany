@@ -1,0 +1,43 @@
+{
+  "userSays": [
+    {
+      "id": "cc5e17bb-4ab7-484c-9d88-44b284d2e055",
+      "data": [
+        {
+          "text": "сани"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "8b1019f3-1c78-4d83-8881-6426ae7340c1",
+  "name": "сани ",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "да сэр?",
+            "да?",
+            "что ?",
+            "слушаю вас",
+            "что случилось ?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

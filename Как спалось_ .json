@@ -1,0 +1,40 @@
+{
+  "userSays": [
+    {
+      "id": "9007f7f2-10b2-4ba6-b15d-4fed375c3dcd",
+      "data": [
+        {
+          "text": "Как спалось"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "200177b9-dc18-4980-b646-bd32b1c7e646",
+  "name": "Как спалось\r ",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "хорошо о тебе",
+            "Хорошая шутка"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

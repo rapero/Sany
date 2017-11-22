@@ -1,0 +1,51 @@
+{
+  "userSays": [
+    {
+      "id": "a8845a65-08bd-4625-9627-f12831a2bd42",
+      "data": [
+        {
+          "text": "Ну что поделать"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d98452b9-7e52-4ee1-8491-bbbfca77c3e1",
+      "data": [
+        {
+          "text": "Ну что"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9a11e1a4-bc84-4333-bef2-667a7e9b588d",
+  "name": "Ну что",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "может вискаря",
+            "Может выпьем",
+            "давай бухнём"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
