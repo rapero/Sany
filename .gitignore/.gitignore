@@ -1,0 +1,10 @@
+VoxEngine.addEventListener(AppEvents.CallAlerting, function(e) {
+  var inc = e.call; // чтобы не запутаться в 'e'
+  inc.answer(); // говорить можно и неотвеченный, но лучше так не делать
+  inc.addEventListener(CallEvents.Connected, function(e) { // у нас все асинхронно
+    inc.say("привет", Language.RU_RUSSIAN_FEMALE); // можно настраивать
+    inc.addEventListener(CallEvents.PlaybackFinished, function(e) {
+      VoxEngine.terminate(); // завершает звонки и JavaScript сессию
+    });
+  });
+});
